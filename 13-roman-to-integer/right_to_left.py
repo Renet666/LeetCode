@@ -9,4 +9,5 @@ def romanToInt(s: str) -> int:
         else:
             total += curr
         prev = curr
+
     return total
