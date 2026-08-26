@@ -40,11 +40,8 @@ Traverses the list and stores each visited node in a set. If we ever encounter a
 - **Time:** O(n) – linear.
 - **Space:** O(n) – in the worst case we store all nodes (when no cycle).
 
-## Usage
-
-Both files define a `Solution` class with a `hasCycle(self, head: Optional[ListNode]) -> bool` method.
-
-
-
-sol = Solution()
-print(sol.hasCycle(node1))   # True
+LeetCode 9. Palindrome Number
+Approach: Reverse Half of the Number (Mathematical)
+- Time Complexity: O(log10(n))
+- Space Complexity: O(1)
+- Reverses only the second half of the integer and compares it to the first half.
